@@ -1,0 +1,9 @@
+
+fmt - it is a package in Golang
+
+package or directory are tightly couled thats why we have to do folder inside file.
+all Go files in a single directory are considered part of the same package
+the package is diclared at the top of each Go file with the package keyword
+
+we write Println() because developer write in built function so that we share the function
+
