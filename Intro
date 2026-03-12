@@ -1,2 +1,31 @@
 
  Go = c + String + garbage collection + concurrency(jese jese resource khali hote chale jaaa raha hey wese wese task ko perform karte chale jao pura task khatam hone ka wait matt karo as compare to parrelism())
+
+Concurrency (in Go) : Concurrency means the ability of a program to run multiple tasks at the same time independently.
+in short - The ability of a program to execute multiple tasks at the same time.
+
+Garbage Collection (in Go) : Garbage Collection (GC) is an automatic memory management process where the system automatically frees memory that is no longer being used by the program.
+in short - An automatic memory management system that removes unused objects from memory.
+
+Static typing : Static typing means the type of a variable is known and checked at compile time.
+ex: 
+:= //in go we can create variable
+x:=10   eq  var x int=10 //both same
+1. static typing -
+var x int = 10
+2. static variable -
+static int count=0
+3. class Test{
+static void show(){
+         System.out.println("Hello");
+}
+}
+Test.show();
+
+Lightweight : Goroutines take only 8kilo bytes and u can have thousands of that
+Fast compilation
+Zero dependencies
+Built in support for testing
+Strong community
+
+
