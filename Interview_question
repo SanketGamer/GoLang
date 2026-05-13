@@ -1,0 +1,31 @@
+
+1. What are Goroutines?
+-> Lightweight threads managed by the Go runtime, not the OS.
+
+2. What is a Channel?
+-> A typed conduit for communication between goroutines.
+
+3. var vs :=
+-> var(explicit declaration(means clearly told golang variable type)) , := (short declaration (only inside functions)
+
+4. What are slices vs arrays?
+->Array: fixed size [5]int
+  Slice: dynamic, backed by an array []int
+
+5. What is defer?
+-> Delays execution of a function until the surrounding function returns. Runs in LIFO order.
+
+6. Buffered vs Unbuffered Channels
+-> unbuffred(blocks until receivers ready) , buffer(blocks only when buffer is full)
+
+7. What is select statement?
+-> Like a switch but for channels — picks whichever case is ready.
+
+8. Interface in Go
+-> 
+
+9. What is sync.WaitGroup?
+-> Waits for a collection of goroutines to finish.
+
+10. sync.Mutex — why use it?
+-> Prevents race conditions when multiple goroutines access shared data.
