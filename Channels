@@ -1,0 +1,21 @@
+
+unbuffred channel ex :
+//data 1st send and received from ch 
+func main() {
+  ch:=make(chan string)
+  go func(){
+      ch<-"hello"
+  }()
+  msg:=<-ch
+  fmt.Println("done")
+}
+
+buffred channel ex:
+func main() {
+  fmt.Println("Start small. Ship something.")
+  ch:=make(chan int,2)
+   ch<-10
+   ch<-20
+  msg:=<-ch
+  fmt.Println(msg)
+}
